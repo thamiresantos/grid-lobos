@@ -12,6 +12,16 @@ a {
 
 }
 
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .header {
     background: #1d1e20;
     display: flex;
@@ -40,3 +50,15 @@ a {
 }
 
 /* CSS FLEXBOX 1 */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto; /*para alinhar ao centro quando passar dos 800*/
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px 10px;
+}
